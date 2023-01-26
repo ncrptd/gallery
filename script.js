@@ -4,6 +4,8 @@ function toggleOpen(event) {
   elem.classList.toggle('open-active');
 }
 
+// event listener for toggleOpen function
+
 document.addEventListener('click', (event) => {
   let target = event.target.closest('div');
   console.log(target);
