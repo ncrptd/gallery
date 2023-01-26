@@ -5,7 +5,7 @@ function toggleOpen(event) {
 }
 
 // event listener for toggleOpen function d
-
+//test comment
 document.addEventListener('click', (event) => {
   let target = event.target.closest('div');
   console.log(target);
